@@ -124,7 +124,7 @@ body {
 .block {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 10px;
 }
 .block_header {
   display: flex;
@@ -250,3 +250,5 @@ a{
   background: none;
   border-radius: 10px;
 }
+
+
