@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+#header {
+  padding: 30px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header a h5 span {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  color: darkblue;
+}
+.header a span {
+  font-size: 13px;
+  font-weight: 700;
+  color: black;
+  width: 130px;
+  height: 30px;
+}
+.header button {
+  font-size: 11px;
+  font-weight: 500;
+  width: 100px;
+  height: 41px;
+  background: red;
+  color: white;
+}
+.select option {
+  font-size: 12px;
+  font-weight: 700;
+  color: black;
+}
+.header a {
+  font-size: 12px;
+  font-weight: 400;
+  color: black;
+}
+.hero-text h1 {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 44px;
+}
+.hero-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  margin: 25px 0;
+}
+.hero-text button {
+  font-size: 15px;
+  font-weight: 600;
+  background: #eb2d66;
+  color: white;
+  padding: 20px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+}
+
+.hero-left {
+  position: relative;
+  left: 260px;
+  top: 150px;
+}
+.hero-dron {
+  position: relative;
+  left: -190px;
+  bottom: 320px;
+}
+.hero-title {
+  position: relative;
+  left: 400px;
+  bottom: 500px;
+}
+.hero-title h1 {
+  font-size: 15px;
+  font-weight: 900;
+  color: white;
+}
+.hero-title p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  margin: 20px 0;
+  color: white;
+}
+.hero-title h3 {
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+}
+.hero-title a {
+  width: 20px;
+  height: 17px;
+  left: 250px;
+  top: 50px;
+  color: black;
+  position: relative;
+}
+
+#block {
+  margin-top: 700px;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.block_header {
+  display: flex;
+  gap: 200px;
+}
+.block_tegs {
+  display: flex;
+  gap: 20px;
+}
+
+.block_phone {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.information {
+  display: flex;
+  gap: 20px;
+}
+
+.information_1 {
+  display: flex;
+  gap: 100px;
+}
+
+#catolog {
+  margin-top: 100px;
+}
+.catolog {
+  position: relative;
+  color: white;
+  display: flex;
+  gap: 10px;
+}
+
+.catolog_text {
+  position: absolute;
+  top: 250px;
+  left: 150px;
+
+  h3 {
+    margin-left: 200px;
+    color: black;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+}
+
+.catolog_2 {
+  position: relative;
+}
+
+.all_phone {
+  margin-top: 100px;
+}
+
+.all_text {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.block_phone_1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 10px;
+
+  img {
+    width: 300px;
+  }
+}
+
+#number {
+  margin-top: 100px;
+}
+
+.number {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.number_block {
+  display: flex;
+  gap: 50px;
+}
+
+#footer {
+  margin-top: 50px;
+  background: #343A62;
+
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+
+  
+}
+
+.mous {
+  display: flex;
+  gap: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.btn{
+  width: 150px;
+  height: 35px;
+  border: 2px solid red;
+  color: red;
+  background: none;
+  border-radius: 10px;
+}
